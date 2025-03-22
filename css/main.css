@@ -1,18 +1,18 @@
 /*General rules*/
 html {
 	/*Colors*/
-	background-color: #111;
 
 	/*Box model*/
 	padding: 0px;
 
 	/*Appearance*/
 	overflow: hidden;
+	background-image: url("../images/ui/contos-de-fadas.jpg");
+	background-size: cover;
 }
 
 body {
 	/*Colors*/
-	background-color: midnightblue;
 	color: white;
 
 	/*Sizing*/
@@ -29,7 +29,6 @@ body {
 
 h1 {
 	/*Colors*/
-	background-color: black;
 
 	/*Sizing*/
 	width: 100%;
@@ -41,6 +40,7 @@ h1 {
 
 	/*Alignment*/
 	text-align: center;
+	padding-top: 10%;
 }
 
 /*Menu*/
@@ -71,7 +71,7 @@ h1 {
 #numCards {
 	/*Colors*/
 	background-color: transparent;
-	color: lightblue;
+	color: rgb(8, 8, 8);
 
 	/*Sizing*/
 	font-size: 4em;
@@ -87,13 +87,13 @@ h1 {
 
 #numCards>option {
 	/*Colors*/
-	background-color: midnightblue;
+	background-color: rgb(255, 255, 255);
 }
 
 /* Start button */
 #start {
 	/*Colors*/
-	background-color: lightblue;
+	background-color: rgb(255, 255, 255);
 
 	/*Sizing*/
 	font-size: 2.5em;
@@ -108,7 +108,7 @@ h1 {
 
 #start:hover {
 	/* light effect on hover */
-	box-shadow: lightblue 0px 0px 20px;
+	box-shadow: rgb(255, 255, 255) 0px 0px 20px;
 }
 
 /*Hidden*/
